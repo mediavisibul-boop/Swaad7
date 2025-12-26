@@ -193,8 +193,8 @@ const SecretMasala: React.FC = () => {
                 className={`bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6 hover:bg-white/20 transition-all cursor-pointer touch-manipulation min-h-[100px] sm:min-h-[120px] ${index === 6 ? 'lg:col-start-2' : ''}`}
               >
                 <div className="flex items-start gap-2.5 sm:gap-3 md:gap-3.5 lg:gap-4">
-                  <span className="material-symbols-outlined text-swaad-yellow text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl flex-shrink-0">{item.icon}</span>
-                  <div>
+                  <span className="material-symbols-outlined text-swaad-yellow text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl flex-shrink-0 w-8 sm:w-9 md:w-10 lg:w-12 flex items-center justify-center">{item.icon}</span>
+                  <div className="flex-1 min-w-0">
                     <h3 className="font-serif font-bold text-swaad-yellow text-base sm:text-lg md:text-xl lg:text-2xl mb-1 sm:mb-1.5 md:mb-2 leading-tight">{item.name}</h3>
                     <p className="font-sans text-white/80 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">{item.desc}</p>
                   </div>

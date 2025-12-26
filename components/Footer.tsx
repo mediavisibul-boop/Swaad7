@@ -57,44 +57,49 @@ const Footer: React.FC = () => {
             Abhi Bhook Lagi Hai?
           </motion.h2>
           
-          <p className="font-serif font-bold text-white text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight sm:leading-snug md:leading-relaxed">
+          <p className="font-serif font-bold text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-snug md:leading-relaxed px-2">
             Seedha aao. Jaldi lo. Khush hoke jao.
           </p>
           
-          <div className="flex items-center justify-center gap-2.5 sm:gap-3 md:gap-3.5 lg:gap-4 mt-5 sm:mt-6 md:mt-7 lg:mt-8 flex-wrap">
-            <span className="font-serif font-bold text-swaad-yellow text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl leading-tight sm:leading-snug">
-              Swaad7 Mumbai ka Roz ka Swaad.
+          <div className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 mt-4 sm:mt-5 md:mt-6 lg:mt-7 xl:mt-8 flex-wrap px-2">
+            <img 
+              src="/logos/Vector-2.png" 
+              alt="SWAAD7" 
+              className="h-5 sm:h-6 md:h-7 lg:h-8 xl:h-9 w-auto"
+            />
+            <span className="font-serif font-bold text-swaad-yellow text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight sm:leading-snug">
+              — Mumbai ka Roz ka Swaad.
             </span>
           </div>
         </div>
 
-        <div className="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-4 sm:gap-5 md:gap-6 pt-6 sm:pt-7 md:pt-8 lg:pt-9 xl:pt-10">
+        <div className="flex flex-col sm:flex-row justify-center items-stretch sm:items-center gap-3 sm:gap-4 md:gap-5 lg:gap-6 pt-6 sm:pt-7 md:pt-8 lg:pt-9 xl:pt-10 px-2 sm:px-3">
           <motion.a
             href="#"
             whileHover={{ scale: 1.05, y: -3 }}
-            className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 bg-swaad-yellow text-black px-4 sm:px-5 md:px-6 lg:px-7 xl:px-8 py-2 sm:py-2.5 md:py-3 lg:py-3 rounded-lg shadow-lg font-serif font-bold text-sm sm:text-base md:text-lg lg:text-base xl:text-lg uppercase min-h-[44px] sm:min-h-[48px] md:min-h-[52px]"
+            className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 bg-swaad-yellow text-black px-4 sm:px-5 md:px-6 lg:px-7 py-2.5 sm:py-3 md:py-3 lg:py-3.5 rounded-lg shadow-lg font-serif font-bold text-xs sm:text-sm md:text-base lg:text-base xl:text-lg uppercase min-h-[44px] sm:min-h-[48px] md:min-h-[52px] w-full sm:w-auto"
           >
-            <span className="material-symbols-outlined text-lg sm:text-xl md:text-2xl">location_on</span>
-            <span className="whitespace-nowrap">Aaj cart kahan hai? Follow karo</span>
+            <span className="material-symbols-outlined text-base sm:text-lg md:text-xl lg:text-2xl flex-shrink-0">location_on</span>
+            <span className="text-center sm:text-left">Aaj cart kahan hai? Follow karo</span>
           </motion.a>
           
           <motion.a
             href="#"
             whileHover={{ scale: 1.05, y: -3 }}
-            className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 bg-white text-black px-4 sm:px-5 md:px-6 lg:px-7 xl:px-8 py-2 sm:py-2.5 md:py-3 lg:py-3 rounded-lg shadow-lg font-serif font-bold text-sm sm:text-base md:text-lg lg:text-base xl:text-lg uppercase border-2 border-swaad-yellow min-h-[44px] sm:min-h-[48px] md:min-h-[52px]"
+            className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 bg-white text-black px-4 sm:px-5 md:px-6 lg:px-7 py-2.5 sm:py-3 md:py-3 lg:py-3.5 rounded-lg shadow-lg font-serif font-bold text-xs sm:text-sm md:text-base lg:text-base xl:text-lg uppercase border-2 border-swaad-yellow min-h-[44px] sm:min-h-[48px] md:min-h-[52px] w-full sm:w-auto"
           >
-            <span className="material-symbols-outlined text-lg sm:text-xl md:text-2xl">call</span>
-            <span className="whitespace-nowrap">Daily flavours & updates ke liye connect raho</span>
+            <span className="material-symbols-outlined text-base sm:text-lg md:text-xl lg:text-2xl flex-shrink-0">call</span>
+            <span className="text-center sm:text-left">Daily flavours & updates ke liye connect raho</span>
           </motion.a>
         </div>
 
-        <div className="pt-8 sm:pt-10 md:pt-12 lg:pt-14 xl:pt-16 2xl:pt-20 border-t border-gray-800">
+        <div className="pt-6 sm:pt-8 md:pt-10 lg:pt-12 xl:pt-14 2xl:pt-16 border-t border-gray-800">
           <div className="flex items-center justify-center gap-1.5 sm:gap-2 flex-wrap text-gray-400 font-mono text-[10px] sm:text-xs md:text-sm uppercase tracking-[0.25em] sm:tracking-[0.3em] md:tracking-[0.4em] px-3 sm:px-4">
-            
+            <span>©</span>
             <img 
               src="/logos/Vector-2.png" 
               alt="SWAAD7" 
-              className="h-4 sm:h-4.5 md:h-5 lg:h-6 w-auto opacity-80"
+              className="h-3 sm:h-3.5 md:h-4 lg:h-4.5 xl:h-5 w-auto opacity-80"
             />
             <span>| Fresh • Fast • Desi</span>
           </div>
