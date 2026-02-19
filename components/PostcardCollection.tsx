@@ -15,15 +15,7 @@ const PostcardCollection: React.FC = () => {
           <p className="font-mono text-[8px] sm:text-[9px] md:text-[10px] uppercase text-gray-500 mt-1.5 sm:mt-2 tracking-wider sm:tracking-widest px-3 sm:px-4">
             Collect 7 Stamps • Unlock 'Swaad Box' • Dhanyawaad
           </p>
-        </div>
-
-        <div className="bg-[#f2efe6] p-2.5 sm:p-4 md:p-5 lg:p-6 xl:p-8 2xl:p-12 rounded-xl shadow-inner border border-black/5 relative overflow-hidden">
-          {/* Scalloped Border effect */}
-          <div className="absolute inset-1.5 sm:inset-2 border-2 border-dashed border-ink-blue/10 rounded-lg pointer-events-none" />
-          
-          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6 relative z-10">
-            {/* Collected Stamps */}
-            <motion.div
+            <p className="text-sm sm:text-base text-ink-blue mt-3">Slide into our DMs, tag <span className="font-bold">#SWAAD7Eats</span> — get featured.</p>
               whileHover={{ rotate: 0, scale: 1.05 }}
               className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md -rotate-3 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation"
             >

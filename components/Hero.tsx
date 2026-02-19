@@ -177,58 +177,45 @@ const Hero: React.FC = () => {
                 />
               </div>
               
+              <p className="font-mono text-sub-text text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg max-w-2xl mx-auto leading-relaxed px-2 sm:px-3 md:px-4">
+                Welcome to SWAAD7 — where every day is a taste-cation. We’re not just a food truck, we’re your daily flavor ritual.
+              </p>
+
               <p className="font-serif font-bold text-ink-blue text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-1 sm:mb-1.5 md:mb-2 leading-tight sm:leading-snug md:leading-normal">
-                Subah ka Chai. Shaam ka Swaad.
+                Food on the move. Mood on fire.
               </p>
               
-              <p className="font-mono text-sub-text text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg max-w-2xl mx-auto leading-relaxed px-2 sm:px-3 md:px-4 mb-2 sm:mb-2.5 md:mb-3 lg:mb-4">
+              <p className="font-mono text-sub-text text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg max-w-2xl mx-auto leading-relaxed px-2 sm:px-3 md:px-4">
                 7 AM – 7 PM | Mumbai ka Roz ka Food Stop
               </p>
 
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2.5 sm:gap-3 md:gap-4 lg:gap-5 mb-2.5 sm:mb-3 md:mb-4 lg:mb-5 max-w-2xl mx-auto px-2 sm:px-3 md:px-4">
-                <div className="space-y-1.5 sm:space-y-2 md:space-y-2.5 text-left">
-                  <p className="font-sans text-text-dark text-[11px] sm:text-xs md:text-sm lg:text-base leading-relaxed">Running for a local train?</p>
-                  <p className="font-sans text-text-dark text-[11px] sm:text-xs md:text-sm lg:text-base leading-relaxed">Office ya college ke bahar bhook lagi?</p>
-                  <p className="font-sans text-text-dark text-[11px] sm:text-xs md:text-sm lg:text-base leading-relaxed">Hospital ke paas wait chal raha hai?</p>
-                </div>
-                <div className="space-y-1.5 sm:space-y-2 md:space-y-2.5 flex flex-col justify-center sm:items-end">
-                  <div className="flex items-center gap-1.5 sm:gap-2 md:gap-2.5">
-                    <img 
-                      src="/logos/Vector-3.png" 
-                      alt="SWAAD7" 
-                      className="h-3.5 sm:h-4 md:h-5 lg:h-6 w-auto"
-                    />
-                    <span className="font-serif font-bold text-ink-blue text-xs sm:text-sm md:text-base lg:text-lg xl:text-xl">hai na.</span>
-                  </div>
-                  <p className="font-mono text-sub-text text-[9px] sm:text-[10px] md:text-xs lg:text-sm">Roz, reliable, full-on swaad.</p>
-                </div>
-              </div>
+              <p className="font-sans text-text-dark text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center max-w-2xl mx-auto px-2 sm:px-3 md:px-4">
+                Swipe right on your next meal. 🌍🍔✨
+              </p>
 
               <div className="pt-2.5 sm:pt-3 md:pt-4 lg:pt-5 flex flex-col sm:flex-row gap-2 sm:gap-2.5 md:gap-3 lg:gap-4 justify-center items-stretch sm:items-center">
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   animate={{ rotate: [0, -1, 1, 0] }}
                   transition={{ repeat: Infinity, duration: 5 }}
-                  className="inline-flex flex-wrap sm:flex-nowrap items-center justify-center gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-3 bg-swaad-yellow px-1 py-0.5 sm:py-1 md:py-1.5 pr-2.5 sm:pr-3 md:pr-4 lg:pr-5 rounded-sm shadow-md border-2 border-swaad-yellow border-dashed group min-h-[44px] w-full sm:w-auto"
+                  onClick={() => (window.location.href = '/order')}
+                  aria-label="Order online"
+                  className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-swaad-yellow px-6 py-3 sm:px-8 sm:py-4 rounded-md shadow-md border-2 border-swaad-yellow border-dashed group min-h-[48px] w-full sm:w-auto text-center"
                 >
-                  <div className="bg-swaad-red text-white p-1 sm:p-1.5 md:p-2 lg:p-2.5 font-bold font-mono text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs uppercase tracking-wide sm:tracking-wider md:tracking-widest whitespace-nowrap">
-                    Find Truck
-                  </div>
-                  <span className="font-serif font-bold text-ink-blue text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg uppercase">Find the Truck Near You</span>
-                  <span className="material-symbols-outlined text-ink-blue group-hover:translate-x-1 transition-transform text-sm sm:text-base md:text-lg lg:text-xl">arrow_forward</span>
+                  <span className="font-serif font-bold text-ink-blue text-base sm:text-lg md:text-xl uppercase">ORDER ONLINE</span>
+                  <span className="material-symbols-outlined text-ink-blue group-hover:translate-x-1 transition-transform text-xl sm:text-2xl md:text-3xl">shopping_cart</span>
                 </motion.button>
-                
+
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   animate={{ rotate: [0, 1, -1, 0] }}
                   transition={{ repeat: Infinity, duration: 5, delay: 0.5 }}
-                  className="inline-flex flex-wrap sm:flex-nowrap items-center justify-center gap-1.5 sm:gap-2 md:gap-2.5 lg:gap-3 bg-white px-1 py-0.5 sm:py-1 md:py-1.5 pr-2.5 sm:pr-3 md:pr-4 lg:pr-5 rounded-sm shadow-md border-2 border-swaad-red border-dashed group min-h-[44px] w-full sm:w-auto"
+                  onClick={() => document.getElementById('masala')?.scrollIntoView({ behavior: 'smooth' })}
+                  aria-label="View today's menu"
+                  className="inline-flex items-center justify-center gap-2 sm:gap-3 bg-white px-6 py-3 sm:px-8 sm:py-4 rounded-md shadow-md border-2 border-swaad-red border-dashed group min-h-[48px] w-full sm:w-auto text-center"
                 >
-                  <div className="bg-swaad-red text-white p-1 sm:p-1.5 md:p-2 lg:p-2.5 font-bold font-mono text-[8px] sm:text-[9px] md:text-[10px] lg:text-xs uppercase tracking-wide sm:tracking-wider md:tracking-widest whitespace-nowrap">
-                    Follow
-                  </div>
-                  <span className="font-serif font-bold text-ink-blue text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg uppercase">Follow Today's Location</span>
-                  <span className="material-symbols-outlined text-ink-blue group-hover:translate-x-1 transition-transform text-sm sm:text-base md:text-lg lg:text-xl">location_on</span>
+                  <span className="font-serif font-bold text-ink-blue text-base sm:text-lg md:text-xl uppercase">VIEW TODAY'S MENU</span>
+                  <span className="material-symbols-outlined text-ink-blue group-hover:translate-x-1 transition-transform text-xl sm:text-2xl md:text-3xl">restaurant_menu</span>
                 </motion.button>
               </div>
             </div>

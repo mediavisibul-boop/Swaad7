@@ -170,9 +170,21 @@ const SecretMasala: React.FC = () => {
 
         <div className="space-y-4 sm:space-y-5 md:space-y-6 lg:space-y-7 xl:space-y-8">
           
-          <p className="font-sans text-white/90 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-6 sm:mb-7 md:mb-8 lg:mb-9 xl:mb-10 max-w-2xl mx-auto leading-relaxed">
-            Ek cart. Saat solid cheezein. Confusion zero.
+          <p className="font-serif font-bold text-white text-lg sm:text-xl md:text-2xl leading-tight text-center max-w-2xl mx-auto">
+            Taste first. Boring never. Always 7/7 swagger.
           </p>
+          <div className="mt-4 mb-6 max-w-2xl mx-auto text-center">
+            <h3 className="font-mono text-swaad-yellow text-[9px] uppercase tracking-wider mb-2">Menu Mood — 7 Daily Hits That Never Miss</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-sm text-white/90">
+              <div className="py-2">• The Bombay Bae Burger — street spice, creamy swing</div>
+              <div className="py-2">• Global Street Wrap — Tokyo drift meets Mumbai spice</div>
+              <div className="py-2">• Masala Fries ‘With Benefits’ — no plain fries allowed</div>
+              <div className="py-2">• Sunset Tacos — Mexican heat, chilled mango salsa</div>
+              <div className="py-2">• Desi Bowl Remix — quinoa & spice doing the tango</div>
+              <div className="py-2">• Midnight Sliders — tiny but lethal</div>
+              <div className="py-2">• Choco-Lava Cloud — chocolate therapy</div>
+            </div>
+          </div>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-7 xl:gap-8 max-w-5xl mx-auto">
             {[

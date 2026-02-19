@@ -54,12 +54,13 @@ const Footer: React.FC = () => {
             whileInView={{ scale: 1, opacity: 1 }}
             className="font-serif font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-swaad-yellow leading-tight sm:leading-snug md:leading-normal"
           >
-            Abhi Bhook Lagi Hai?
+            SWAAD7 — Mumbai ka Roz ka Food Stop
           </motion.h2>
           
           <p className="font-serif font-bold text-white text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl leading-tight sm:leading-snug md:leading-relaxed px-2">
-            Seedha aao. Jaldi lo. Khush hoke jao.
+            Catch us rolling near you — check the schedule 👀
           </p>
+          <p className="text-sm text-gray-400 mt-2">Follow the flavor on socials: IG • TikTok • WhatsApp • Snapchat</p>
           
           <div className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 mt-4 sm:mt-5 md:mt-6 lg:mt-7 xl:mt-8 flex-wrap px-2">
             <img 
@@ -80,7 +81,7 @@ const Footer: React.FC = () => {
             className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 bg-swaad-yellow text-black px-4 sm:px-5 md:px-6 lg:px-7 py-2.5 sm:py-3 md:py-3 lg:py-3.5 rounded-lg shadow-lg font-serif font-bold text-xs sm:text-sm md:text-base lg:text-base xl:text-lg uppercase min-h-[44px] sm:min-h-[48px] md:min-h-[52px] w-full sm:w-auto"
           >
             <span className="material-symbols-outlined text-base sm:text-lg md:text-xl lg:text-2xl flex-shrink-0">location_on</span>
-            <span className="text-center sm:text-left">Aaj cart kahan hai? Follow karo</span>
+            <span className="text-center sm:text-left">Check schedule</span>
           </motion.a>
           
           <motion.a
@@ -89,7 +90,7 @@ const Footer: React.FC = () => {
             className="flex items-center justify-center gap-2 sm:gap-2.5 md:gap-3 bg-white text-black px-4 sm:px-5 md:px-6 lg:px-7 py-2.5 sm:py-3 md:py-3 lg:py-3.5 rounded-lg shadow-lg font-serif font-bold text-xs sm:text-sm md:text-base lg:text-base xl:text-lg uppercase border-2 border-swaad-yellow min-h-[44px] sm:min-h-[48px] md:min-h-[52px] w-full sm:w-auto"
           >
             <span className="material-symbols-outlined text-base sm:text-lg md:text-xl lg:text-2xl flex-shrink-0">call</span>
-            <span className="text-center sm:text-left">Daily flavours & updates ke liye connect raho</span>
+            <span className="text-center sm:text-left">Follow the flavor</span>
           </motion.a>
         </div>
 
@@ -101,7 +102,7 @@ const Footer: React.FC = () => {
               alt="SWAAD7" 
               className="h-3 sm:h-3.5 md:h-4 lg:h-4.5 xl:h-5 w-auto opacity-80"
             />
-            <span>| Fresh • Fast • Desi</span>
+            <span>| Taste. Laugh. Repeat.</span>
           </div>
         </div>
       </div>

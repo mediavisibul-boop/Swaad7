@@ -11,8 +11,6 @@ import SwaadShield from './components/SwaadShield';
 import Footer from './components/Footer';
 
 const App: React.FC = () => {
-  const [mousePos, setMousePos] = useState({ x: 0, y: 0 });
-  const [isHovering, setIsHovering] = useState(false);
   const [showBackToTop, setShowBackToTop] = useState(false);
   const { scrollYProgress } = useScroll();
   const scaleX = useSpring(scrollYProgress, {
@@ -22,78 +20,19 @@ const App: React.FC = () => {
   });
 
   useEffect(() => {
-    const handleMouseMove = (e: MouseEvent) => {
-      setMousePos({ x: e.clientX, y: e.clientY });
-    };
-
     const handleScroll = () => {
       setShowBackToTop(window.scrollY > 500);
     };
 
-    window.addEventListener('mousemove', handleMouseMove);
     window.addEventListener('scroll', handleScroll);
 
     return () => {
-      window.removeEventListener('mousemove', handleMouseMove);
       window.removeEventListener('scroll', handleScroll);
     };
   }, []);
 
-  // Global hover detection for the cursor
-  useEffect(() => {
-    const handleMouseOver = (e: MouseEvent) => {
-      const target = e.target as HTMLElement;
-      if (
-        target.tagName === 'A' ||
-        target.tagName === 'BUTTON' ||
-        target.closest('button') ||
-        target.closest('a') ||
-        target.classList.contains('cursor-pointer')
-      ) {
-        setIsHovering(true);
-      } else {
-        setIsHovering(false);
-      }
-    };
-    window.addEventListener('mouseover', handleMouseOver);
-    return () => window.removeEventListener('mouseover', handleMouseOver);
-  }, []);
-
   return (
     <div className="bg-kora-paper min-h-screen relative overflow-x-hidden selection:bg-swaad-yellow selection:text-swaad-red">
-      {/* Custom Postmark Cursor - Hidden on touch devices */}
-      <motion.div
-        className="hidden md:flex fixed top-0 left-0 pointer-events-none z-[9999] items-center justify-center"
-        animate={{
-          x: mousePos.x - (isHovering ? 20 : 12),
-          y: mousePos.y - (isHovering ? 20 : 12),
-        }}
-        transition={{ type: 'spring', damping: 25, stiffness: 250, mass: 0.5 }}
-      >
-        <AnimatePresence mode="wait">
-          {!isHovering ? (
-            <motion.div
-              key="default"
-              initial={{ opacity: 0, scale: 0.5 }}
-              animate={{ opacity: 1, scale: 1 }}
-              exit={{ opacity: 0, scale: 0.5 }}
-              className="w-5 h-5 md:w-6 md:h-6 border-2 border-dashed border-swaad-red rounded-full bg-white/20"
-            />
-          ) : (
-            <motion.div
-              key="postmark-stamp"
-              initial={{ opacity: 0, scale: 0.5, rotate: -45 }}
-              animate={{ opacity: 1, scale: 1, rotate: 0 }}
-              exit={{ opacity: 0, scale: 0.5, rotate: 45 }}
-              className="w-9 h-9 md:w-10 md:h-10 bg-swaad-red/90 rounded-full shadow-xl border-2 border-white/40 flex items-center justify-center"
-            >
-              <div className="w-6 h-6 md:w-7 md:h-7 border border-white/30 rounded-full border-dashed flex items-center justify-center">
-                <span className="material-symbols-outlined text-white text-base md:text-lg">restaurant</span>
-              </div>
-            </motion.div>
-          )}
-        </AnimatePresence>
-      </motion.div>
 
       {/* Progress Bar (Flying Postcard Path) */}
       <div className="fixed left-0 right-0 top-0 h-0.5 sm:h-1 z-[60]">

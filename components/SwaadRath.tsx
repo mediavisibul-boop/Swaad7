@@ -93,71 +93,54 @@ const SwaadRath: React.FC = () => {
       <div className="absolute inset-0 bg-[url('https://www.transparenttextures.com/patterns/dust.png')] opacity-30 mix-blend-overlay"></div>
       
       <div className="max-w-[1920px] mx-auto px-3 sm:px-4 md:px-5 lg:px-6 xl:px-8 2xl:px-12 relative z-10 text-center">
-        <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-kora-paper mb-2 sm:mb-3 md:mb-4 lg:mb-5 leading-tight sm:leading-snug md:leading-normal">The Swaad Rath</h2>
         <p className="font-mono text-swaad-yellow text-[9px] sm:text-[10px] md:text-xs lg:text-sm uppercase tracking-[0.2em] sm:tracking-[0.25em] md:tracking-[0.3em] lg:tracking-[0.35em] xl:tracking-[0.4em] mb-4 sm:mb-5 md:mb-6 lg:mb-7 xl:mb-8 px-3 sm:px-4">
-          Temple of Taste • High Hygiene • High Nostalgia
+          The Legacy of Street Soul
         </p>
-        
+        <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-kora-paper mb-2 sm:mb-3 md:mb-4 lg:mb-5 leading-tight sm:leading-snug md:leading-normal">The Swaad Rath</h2>
         <div className="max-w-3xl mx-auto mb-8 sm:mb-10 md:mb-12 lg:mb-14 xl:mb-16 space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6 text-kora-paper">
           <p className="font-serif font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight sm:leading-snug md:leading-relaxed lg:leading-relaxed">
-            Mumbai rukta nahi aur hum bhi nahi.
+            "Mumbai rukta nahi aur hum bhi nahi."
           </p>
-          <p className="font-sans text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed flex items-center justify-center gap-1.5 sm:gap-2 md:gap-2.5 flex-wrap px-2">
-            <img 
-              src="/logos/Vector-2.png" 
-              alt="SWAAD7" 
-              className="h-4 sm:h-5 md:h-6 lg:h-7 xl:h-8 w-auto inline-block"
-            />
-            <span>ek all-day food truck hai jo subah 7 baje se shaam 7 baje tak fresh, familiar aur fast food serve karta hai.</span>
+          <p className="font-sans text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center px-2">
+            At SWAAD7, we went on a mission from hungry — to blend the everyday comfort foods you grew up loving with wild, bold twists from every corner of the globe. From lip‑smacking Indian masalas to Mediterranean drips, Tokyo street bites, Tex‑Mex heat, and a little Mumbai magic on top.
           </p>
-          <p className="font-sans text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed">
-            Local commuters, students, office-goers sabke daily schedule ke hisaab se bana hai.
-          </p>
-          <p className="font-serif font-bold text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-4 sm:mt-5 md:mt-6 lg:mt-7 xl:mt-8 leading-tight sm:leading-snug md:leading-relaxed">
-            Ek cart. Ek stop. Full swaad.
+          <p className="font-sans text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center px-2 mt-3">
+            Every dish is crafted with the freshest ingredients, zero snooze, and full‑on attitude — fuel for your hustle and the reason you’ll say “One more round?” more than once.
           </p>
         </div>
 
         <SwaadRathCarousel />
 
-        {/* Where You'll Find Us Section */}
-        <div className="mt-10 sm:mt-12 md:mt-16 lg:mt-20 xl:mt-24 max-w-4xl mx-auto px-3 sm:px-4">
-          <h3 className="font-serif font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-kora-paper mb-4 sm:mb-5 md:mb-6 lg:mb-7 xl:mb-8 leading-tight sm:leading-snug md:leading-normal">
-            Jahan Mumbai Hamesha Hota Hai
+        {/* Where You'll Find Us Section - Minimal & Clean */}
+        <div className="mt-8 sm:mt-10 md:mt-12 lg:mt-14 xl:mt-16 max-w-4xl mx-auto px-2 sm:px-3">
+          <h3 className="font-serif font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-swaad-yellow mb-4 sm:mb-5 tracking-tight">
+            Where You'll Find Us
           </h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 sm:gap-5 md:gap-6 lg:gap-7 xl:gap-8 text-left">
-            <div className="flex items-start gap-3 sm:gap-3.5 md:gap-4">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl xl:text-5xl flex-shrink-0 mt-0.5">train</span>
-              <div>
-                <p className="font-sans text-kora-paper text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold leading-relaxed">Local train & metro stations ke bahar</p>
-              </div>
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 md:gap-5">
+            <div className="flex flex-col items-center">
+              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">train</span>
+              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Local train & metro stations ke bahar</p>
             </div>
-            <div className="flex items-start gap-3 sm:gap-3.5 md:gap-4">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl xl:text-5xl flex-shrink-0 mt-0.5">local_hospital</span>
-              <div>
-                <p className="font-sans text-kora-paper text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold leading-relaxed">Hospitals ke aas-paas</p>
-              </div>
+            <div className="flex flex-col items-center">
+              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">local_hospital</span>
+              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Hospitals ke aas-paas</p>
             </div>
-            <div className="flex items-start gap-3 sm:gap-3.5 md:gap-4">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl xl:text-5xl flex-shrink-0 mt-0.5">school</span>
-              <div>
-                <p className="font-sans text-kora-paper text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold leading-relaxed">Colleges & universities ke near</p>
-              </div>
+            <div className="flex flex-col items-center">
+              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">school</span>
+              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Colleges & universities ke near</p>
             </div>
-            <div className="flex items-start gap-3 sm:gap-3.5 md:gap-4">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl xl:text-5xl flex-shrink-0 mt-0.5">business</span>
-              <div>
-                <p className="font-sans text-kora-paper text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl font-semibold leading-relaxed">Offices & busy business streets</p>
-              </div>
+            <div className="flex flex-col items-center">
+              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">business</span>
+              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Offices & busy business streets</p>
             </div>
           </div>
-          <p className="font-serif text-kora-paper text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-6 sm:mt-7 md:mt-8 lg:mt-9 xl:mt-10 text-center leading-relaxed">
+          <p className="font-serif text-swaad-yellow text-sm sm:text-base md:text-lg mt-6 sm:mt-7 md:mt-8 text-center leading-snug">
             Log chal rahe ho, ruk rahe ho, wait kar rahe ho<br className="hidden sm:block" />
-            <span className="font-bold flex items-center justify-center gap-1.5 sm:gap-2 md:gap-2.5 mt-6 sm:mt-5">
+            <span className="font-bold flex items-center justify-center gap-1 mt-4">
               <img 
                 src="/logos/Vector-2.png" 
                 alt="SWAAD7" 
-                className="h-5 sm:h-6 md:h-7 lg:h-8 xl:h-9 w-auto"
+                className="h-5 sm:h-6 md:h-7 w-auto"
               />
               <span>paas hi milega.</span>
             </span>

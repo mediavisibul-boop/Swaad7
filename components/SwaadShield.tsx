@@ -42,52 +42,62 @@ const SwaadShield: React.FC = () => {
             </div>
           </div>
 
-          <div className="flex-1 space-y-5 sm:space-y-6 md:space-y-7 lg:space-y-8 text-center lg:text-left">
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 border border-ink-blue px-2 sm:px-2.5 md:px-3 py-0.5 sm:py-1 rounded-full text-ink-blue text-[9px] sm:text-[10px] md:text-xs font-mono uppercase tracking-[0.15em] sm:tracking-[0.2em] font-bold">
-              <span className="material-symbols-outlined text-xs sm:text-sm md:text-base">favorite</span>
-              <span>Why People Choose Swaad7</span>
+          <div className="flex-1 space-y-4 sm:space-y-5 md:space-y-6 text-center lg:text-left">
+            <div className="inline-flex items-center gap-1 border border-ink-blue px-2 py-0.5 rounded-full text-ink-blue text-xs font-mono uppercase tracking-wide font-bold">
+              <span className="material-symbols-outlined text-sm">favorite</span>
+              <span>Why Swaad7?</span>
             </div>
-            
-            <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl text-swaad-red leading-tight sm:leading-snug md:leading-normal">
-              Mumbai Life ke Hisaab se Bana Hai
+            <h2 className="font-serif font-bold text-xl sm:text-2xl md:text-3xl text-swaad-red leading-tight">
+              Why SWAAD7 is Your New Go‑To
             </h2>
-
-            <div className="space-y-3 sm:space-y-3.5 md:space-y-4 lg:space-y-5 text-left max-w-2xl mx-auto lg:mx-0">
-              <div className="flex items-start gap-2.5 sm:gap-3">
-                <span className="material-symbols-outlined text-swaad-red text-lg sm:text-xl md:text-2xl flex-shrink-0 mt-0.5">speed</span>
-                <p className="font-sans text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                  Fast service late hone ka tension nahi
-                </p>
+            <p className="text-sm text-gray-600 mt-1">We’re fast, we’re bold, and we’re as social as your last TikTok binge.</p>
+            <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 text-left max-w-xl mx-auto lg:mx-0">
+              <div className="flex items-center gap-2">
+                <span className="material-symbols-outlined text-swaad-red text-base">speed</span>
+                <span className="text-xs sm:text-sm text-gray-700">Fast service</span>
               </div>
-              <div className="flex items-start gap-2.5 sm:gap-3">
-                <span className="material-symbols-outlined text-swaad-red text-lg sm:text-xl md:text-2xl flex-shrink-0 mt-0.5">verified</span>
-                <p className="font-sans text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                  Saaf-suthra, hygienic cooking
-                </p>
+              <div className="flex items-center gap-2">
+                <span className="material-symbols-outlined text-swaad-red text-base">verified</span>
+                <span className="text-xs sm:text-sm text-gray-700">Hygienic cooking</span>
               </div>
-              <div className="flex items-start gap-2.5 sm:gap-3">
-                <span className="material-symbols-outlined text-swaad-red text-lg sm:text-xl md:text-2xl flex-shrink-0 mt-0.5">balance</span>
-                <p className="font-sans text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                  Light, healthy & indulgent sab ek jagah
-                </p>
+              <div className="flex items-center gap-2">
+                <span className="material-symbols-outlined text-swaad-red text-base">balance</span>
+                <span className="text-xs sm:text-sm text-gray-700">Light & indulgent</span>
               </div>
-              <div className="flex items-start gap-2.5 sm:gap-3">
-                <span className="material-symbols-outlined text-swaad-red text-lg sm:text-xl md:text-2xl flex-shrink-0 mt-0.5">currency_rupee</span>
-                <p className="font-sans text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                  Pocket-friendly prices
-                </p>
+              <div className="flex items-center gap-2">
+                <span className="material-symbols-outlined text-swaad-red text-base">currency_rupee</span>
+                <span className="text-xs sm:text-sm text-gray-700">Pocket-friendly</span>
               </div>
-              <div className="flex items-start gap-2.5 sm:gap-3">
-                <span className="material-symbols-outlined text-swaad-red text-lg sm:text-xl md:text-2xl flex-shrink-0 mt-0.5">star</span>
-                <p className="font-sans text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-                  Roz khane layak taste & consistency
-                </p>
+              <div className="flex items-center gap-2">
+                <span className="material-symbols-outlined text-swaad-red text-base">star</span>
+                <span className="text-xs sm:text-sm text-gray-700">Consistent taste</span>
               </div>
             </div>
-
-            <p className="font-serif font-bold text-ink-blue text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-5 sm:mt-6 md:mt-7 lg:mt-8 leading-tight sm:leading-snug md:leading-relaxed max-w-2xl mx-auto lg:mx-0">
-              Train miss ho sakti hai. <br className="hidden sm:block" />Chai nahi.
-            </p>
+            {/* Swaad Sarthis App Quick Pointers */}
+            <div className="mt-4 sm:mt-5 md:mt-6">
+              <div className="inline-flex items-center gap-1 border border-green-600 px-2 py-0.5 rounded-full text-green-700 text-xs font-mono uppercase tracking-wide font-bold mb-2">
+                <span className="material-symbols-outlined text-sm">security</span>
+                <span>Swaad Sarthis App</span>
+              </div>
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 md:gap-4 text-left max-w-xl mx-auto lg:mx-0">
+                <div className="flex items-center gap-2">
+                  <span className="material-symbols-outlined text-green-700 text-base">done_all</span>
+                  <span className="text-xs sm:text-sm text-green-700">Payment first, then order</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="material-symbols-outlined text-green-700 text-base">block</span>
+                  <span className="text-xs sm:text-sm text-green-700">No fraud, no fooling</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="material-symbols-outlined text-green-700 text-base">smartphone</span>
+                  <span className="text-xs sm:text-sm text-green-700">Works on any phone</span>
+                </div>
+                <div className="flex items-center gap-2">
+                  <span className="material-symbols-outlined text-green-700 text-base">touch_app</span>
+                  <span className="text-xs sm:text-sm text-green-700">Order direct, skip chaos</span>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -107,21 +117,6 @@ const SwaadShield: React.FC = () => {
           </p>
         </div>
 
-        {/* Timings Section */}
-        <div className="mt-12 sm:mt-14 md:mt-16 lg:mt-20 xl:mt-24 max-w-2xl mx-auto text-center border-t border-gray-200 pt-10 sm:pt-12 md:pt-14 lg:pt-16 px-3 sm:px-4">
-          <h3 className="font-serif font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-swaad-red mb-3 sm:mb-4 md:mb-5 lg:mb-6 leading-tight sm:leading-snug md:leading-normal">
-            Kab Open Hai?
-          </h3>
-          <div className="flex items-center justify-center gap-2.5 sm:gap-3 md:gap-3.5 lg:gap-4 mb-3 sm:mb-4">
-            <span className="material-symbols-outlined text-swaad-red text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl xl:text-5xl">schedule</span>
-            <p className="font-serif font-bold text-ink-blue text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight sm:leading-snug md:leading-normal">
-              Subah 7 baje se Shaam 7 baje tak
-            </p>
-          </div>
-          <p className="font-sans text-gray-600 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed">
-            First local se evening chai-time tak.
-          </p>
-        </div>
       </div>
     </section>
   );

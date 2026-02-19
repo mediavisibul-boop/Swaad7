@@ -4,12 +4,6 @@
   box-sizing: border-box;
 }
 
-/* Hide cursor on desktop only, keep default on mobile/touch devices */
-@media (hover: hover) and (pointer: fine) {
-  * {
-    cursor: none !important;
-  }
-}
 
 body {
   font-family: 'Montserrat', sans-serif;
