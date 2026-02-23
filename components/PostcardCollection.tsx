@@ -16,8 +16,14 @@ const PostcardCollection: React.FC = () => {
             Collect 7 Stamps • Unlock 'Swaad Box' • Dhanyawaad
           </p>
             <p className="text-sm sm:text-base text-ink-blue mt-3">Slide into our DMs, tag <span className="font-bold">#SWAAD7Eats</span> — get featured.</p>
-              whileHover={{ rotate: 0, scale: 1.05 }}
-              className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md -rotate-3 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation"
+          </div>
+          <div className="bg-[#f2efe6] p-2.5 sm:p-4 md:p-5 lg:p-6 xl:p-8 2xl:p-12 rounded-xl shadow-inner border border-black/5 relative overflow-hidden">
+            {/* Scalloped Border effect */}
+            <div className="absolute inset-1.5 sm:inset-2 border-2 border-dashed border-ink-blue/10 rounded-lg pointer-events-none" />
+            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6 relative z-10">
+              <motion.div
+                whileHover={{ rotate: 0, scale: 1.05 }}
+                className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md -rotate-3 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation"
             >
               <div className="flex-1 bg-gray-100 border border-black/5 overflow-hidden">
                 <img src="https://picsum.photos/400/500?grayscale" className="w-full h-full object-cover opacity-60 vintage-filter" alt="Gateway" />
