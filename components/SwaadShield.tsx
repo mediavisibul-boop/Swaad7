@@ -47,54 +47,54 @@ const SwaadShield: React.FC = () => {
               <span className="material-symbols-outlined text-sm">favorite</span>
               <span>Why Swaad7?</span>
             </div>
-            <h2 className="font-serif font-bold text-xl sm:text-2xl md:text-3xl text-swaad-red leading-tight">
+            <h2 className="font-calibri font-bold text-xl sm:text-2xl md:text-3xl text-swaad-red leading-tight">
               Why SWAAD7 is Your New Go‑To
             </h2>
             <p className="text-sm text-gray-600 mt-1">We’re fast, we’re bold, and we’re as social as your last TikTok binge.</p>
             <div className="grid grid-cols-2 gap-2 sm:gap-3 md:gap-4 text-left max-w-xl mx-auto lg:mx-0">
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-swaad-red text-base">speed</span>
-                <span className="text-xs sm:text-sm text-gray-700">Fast service</span>
+                <span className="font-calibri text-xs sm:text-sm text-gray-700">Fast service</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-swaad-red text-base">verified</span>
-                <span className="text-xs sm:text-sm text-gray-700">Hygienic cooking</span>
+                <span className="font-calibri text-xs sm:text-sm text-gray-700">Hygienic cooking</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-swaad-red text-base">balance</span>
-                <span className="text-xs sm:text-sm text-gray-700">Light & indulgent</span>
+                <span className="font-calibri text-xs sm:text-sm text-gray-700">Light & indulgent</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-swaad-red text-base">currency_rupee</span>
-                <span className="text-xs sm:text-sm text-gray-700">Pocket-friendly</span>
+                <span className="font-calibri text-xs sm:text-sm text-gray-700">Pocket-friendly</span>
               </div>
               <div className="flex items-center gap-2">
                 <span className="material-symbols-outlined text-swaad-red text-base">star</span>
-                <span className="text-xs sm:text-sm text-gray-700">Consistent taste</span>
+                <span className="font-calibri text-xs sm:text-sm text-gray-700">Consistent taste</span>
               </div>
             </div>
             {/* Swaad Sarthis App Quick Pointers */}
             <div className="mt-4 sm:mt-5 md:mt-6">
-              <div className="inline-flex items-center gap-1 border border-green-600 px-2 py-0.5 rounded-full text-green-700 text-xs font-mono uppercase tracking-wide font-bold mb-2">
-                <span className="material-symbols-outlined text-sm">security</span>
+              <div className="font-calibri inline-flex items-center text-green-700 text-xl font-mono uppercase tracking-wide font-bold mb-2">
+                <span className="material-symbols-outlined text-xl">security</span>
                 <span>Swaad Sarthis App</span>
               </div>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 md:gap-4 text-left max-w-xl mx-auto lg:mx-0">
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-green-700 text-base">done_all</span>
-                  <span className="text-xs sm:text-sm text-green-700">Payment first, then order</span>
+                  <span className="font-calibri text-xs sm:text-sm text-green-700">Payment first, then order</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-green-700 text-base">block</span>
-                  <span className="text-xs sm:text-sm text-green-700">No fraud, no fooling</span>
+                  <span className="font-calibri text-xs sm:text-sm text-green-700">No fraud, no fooling</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-green-700 text-base">smartphone</span>
-                  <span className="text-xs sm:text-sm text-green-700">Works on any phone</span>
+                  <span className="font-calibri text-xs sm:text-sm text-green-700">Works on any phone</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <span className="material-symbols-outlined text-green-700 text-base">touch_app</span>
-                  <span className="text-xs sm:text-sm text-green-700">Order direct, skip chaos</span>
+                  <span className="font-calibri text-xs sm:text-sm text-green-700">Order direct, skip chaos</span>
                 </div>
               </div>
             </div>
@@ -106,13 +106,13 @@ const SwaadShield: React.FC = () => {
           <h3 className="font-serif font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl text-swaad-red mb-3 sm:mb-4 md:mb-5 lg:mb-6 leading-tight sm:leading-snug md:leading-normal">
             Simple Food. Proper Taste.
           </h3>
-          <p className="font-sans text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl mx-auto">
+          <p className="font-calibri text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl mx-auto">
             Yahan fancy naam ya overacting nahi.
           </p>
-          <p className="font-sans text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl mx-auto mt-3 sm:mt-4">
+          <p className="font-calibri text-gray-700 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed max-w-2xl mx-auto mt-3 sm:mt-4">
             Bas fresh ingredients, proper cooking aur honest swaad.
           </p>
-          <p className="font-serif font-bold text-ink-blue text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-5 sm:mt-6 md:mt-7 lg:mt-8 leading-tight sm:leading-snug md:leading-relaxed">
+          <p className="font-calibri font-bold text-ink-blue text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl mt-5 sm:mt-6 md:mt-7 lg:mt-8 leading-tight sm:leading-snug md:leading-relaxed">
             Pani puri ho ya soup mood set ho jaata hai.
           </p>
         </div>

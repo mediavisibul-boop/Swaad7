@@ -59,7 +59,6 @@ const App: React.FC = () => {
       <main>
         <Hero />
         <SwaadRath />
-        <Sarthis />
         <SecretMasala />
         <PostcardCollection />
         <SwaadShield />

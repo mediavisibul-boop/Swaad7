@@ -21,9 +21,7 @@ const Header: React.FC = () => {
         </motion.button>
         
         <div className="hidden md:flex items-center gap-4 lg:gap-5 xl:gap-6 2xl:gap-8 font-mono text-[11px] md:text-xs lg:text-sm xl:text-[15px] tracking-wide text-ink-blue">
-          <a href="#hero" className="hover:text-swaad-red transition-colors whitespace-nowrap py-2 px-1.5 min-h-[44px] flex items-center">Postmark</a>
           <a href="#rath" className="hover:text-swaad-red transition-colors whitespace-nowrap py-2 px-1.5 min-h-[44px] flex items-center">About Us</a>
-          <a href="#sarthis" className="hover:text-swaad-red transition-colors whitespace-nowrap py-2 px-1.5 min-h-[44px] flex items-center">Sarthis</a>
           <a href="#masala" className="hover:text-swaad-red transition-colors whitespace-nowrap py-2 px-1.5 min-h-[44px] flex items-center">Our Flavor Philosophy</a>
         </div>
 

@@ -173,29 +173,36 @@ const SecretMasala: React.FC = () => {
           <p className="font-serif font-bold text-white text-lg sm:text-xl md:text-2xl leading-tight text-center max-w-2xl mx-auto">
             Taste first. Boring never. Always 7/7 swagger.
           </p>
-          <div className="mt-4 mb-6 max-w-2xl mx-auto text-center">
-            <h3 className="font-serif text-swaad-yellow text-[15px] uppercase tracking-wider mb-2">Menu Mood — 7 Daily Hits That Never Miss</h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-sm text-white/90">
-              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
-                • The Bombay Bae Burger — street spice, creamy swing
+          <div className="mt-4 mb-6 max-w-5xl mx-auto text-center">
+            <h3 className="font-serif text-swaad-yellow text-[15px] uppercase tracking-wider mb-12">Menu Mood — 7 Daily Hits That Never Miss</h3>
+            <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-2 sm:gap-3 text-sm text-white/90">
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center gap-3">
+                <img src="/food/img1.png" alt="The Bombay Bae Burger" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-xl object-cover mb-2" />
+                <span className="block mt-2">The Bombay Bae Burger <br/> Street spice, creamy swing</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
-                • Global Street Wrap — Tokyo drift meets Mumbai spice
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center gap-3">
+                <img src="/food/img2.png" alt="Global Street Wrap" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-xl object-cover mb-2" />
+                <span className="block mt-2">Global Street Wrap <br/> Tokyo drift meets Mumbai spice</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
-                • Masala Fries ‘With Benefits’ — no plain fries allowed
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center gap-3">
+                <img src="/food/img3.png" alt="Masala Fries With Benefits" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-xl object-cover mb-2" />
+                <span className="block mt-2">Masala Fries ‘With Benefits’ <br/> No plain fries allowed</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
-                • Sunset Tacos — Mexican heat, chilled mango salsa
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center gap-3">
+                <img src="/food/img4.png" alt="Sunset Tacos" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-xl object-cover mb-2" />
+                <span className="block mt-2">Sunset Tacos <br/> Mexican heat, chilled mango salsa</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
-                • Desi Bowl Remix — quinoa & spice doing the tango
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center gap-3">
+                <img src="/food/img5.png" alt="Desi Bowl Remix" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-xl object-cover mb-2" />
+                <span className="block mt-2">Desi Bowl Remix <br/> Quinoa & spice doing the tango</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
-                • Midnight Sliders — tiny but lethal
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center gap-3">
+                <img src="/food/img6.png" alt="Midnight Sliders" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-xl object-cover mb-2" />
+                <span className="block mt-2">Midnight Sliders <br/> Tiny but lethal</span>
               </div>
-              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
-                • Choco-Lava Cloud — chocolate therapy
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-4 sm:p-6 md:p-8 lg:p-10 flex flex-col items-center gap-3">
+                <img src="/food/img7.png" alt="Choco-Lava Cloud" className="w-32 h-32 sm:w-40 sm:h-40 md:w-48 md:h-48 rounded-xl object-cover mb-2" />
+                <span className="block mt-2">Choco-Lava Cloud <br/> Chocolate therapy</span>
               </div>
             </div>
           </div>

@@ -40,7 +40,7 @@ const Sarthis: React.FC = () => {
               Pilots of the Mission • Ration Card Gallery
             </p>
           </div>
-          <p className="font-calibri text-base sm:text-lg md:text-xl lg:text-2xl xl:text-3xl text-sub-text max-w-sm lg:text-right leading-relaxed">
+          <p className="font-calibri text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-sub-text max-w-sm lg:text-right leading-relaxed">
             "Meet your Sarthis. They aren't just cooks; they are the pilots of this mission. By eating here, you're fueling a family's dream."
           </p>
         </div>

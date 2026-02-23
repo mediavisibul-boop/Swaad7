@@ -26,7 +26,7 @@ const PostcardCollection: React.FC = () => {
                 className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md -rotate-3 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation min-w-[120px] sm:min-w-[140px] md:min-w-[160px] lg:min-w-[180px] xl:min-w-[200px]"
             >
               <div className="flex-1 bg-gray-100 border border-black/5 overflow-hidden">
-                <img src="/food/indian-food-1.jpg" className="w-full h-full object-cover opacity-60 vintage-filter" alt="Close-up Indian Food 1" />
+                <img src="/ticket1.webp" className="w-full h-full object-cover vintage-filter" alt="Close-up Indian Food 1" />
               </div>
               <div className="h-5 sm:h-6 md:h-7 lg:h-8 flex items-center justify-center">
                 <span className="font-mono text-[6px] sm:text-[7px] md:text-[8px] uppercase font-bold text-ink-blue">Mumbai 14 Oct</span>
@@ -41,7 +41,7 @@ const PostcardCollection: React.FC = () => {
               className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md rotate-2 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation min-w-[120px] sm:min-w-[140px] md:min-w-[160px] lg:min-w-[180px] xl:min-w-[200px]"
             >
               <div className="flex-1 bg-gray-100 border border-black/5 overflow-hidden">
-                <img src="/food/indian-food-2.jpg" className="w-full h-full object-cover opacity-60 vintage-filter" alt="Close-up Indian Food 2" />
+                <img src="/ticket2.webp" className="w-full h-full object-cover vintage-filter" alt="Close-up Indian Food 2" />
               </div>
               <div className="h-5 sm:h-6 md:h-7 lg:h-8 flex items-center justify-center">
                 <span className="font-mono text-[6px] sm:text-[7px] md:text-[8px] uppercase font-bold text-ink-blue">Bandra 18 Oct</span>
