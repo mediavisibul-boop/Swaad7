@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
           <motion.h2 
             initial={{ scale: 0.9, opacity: 0 }}
             whileInView={{ scale: 1, opacity: 1 }}
-            className="font-serif font-black text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl 2xl:text-8xl text-swaad-yellow leading-tight sm:leading-snug md:leading-normal"
+            className="font-serif font-black text-xl sm:text-2xl md:text-3xl lg:text-4xl xl:text-5xl 2xl:text-6xl text-swaad-yellow leading-tight sm:leading-snug md:leading-normal"
           >
             SWAAD7 — Mumbai ka Roz ka Food Stop
           </motion.h2>

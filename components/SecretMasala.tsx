@@ -9,7 +9,7 @@ const SecretMasala: React.FC = () => {
     <section id="masala" className="py-12 sm:py-16 md:py-20 lg:py-24 xl:py-28 2xl:py-32 bg-chili-red relative overflow-hidden paper-grain">
       {/* Texture Watermarks */}
       <div className="absolute inset-0 flex items-center justify-center opacity-5 pointer-events-none select-none overflow-hidden">
-        <h2 className="text-[6rem] sm:text-[8rem] md:text-[12rem] lg:text-[15rem] xl:text-[18rem] 2xl:text-[20rem] font-serif font-black text-white whitespace-nowrap">MUMBAI MUMBAI MUMBAI</h2>
+        <h2 className="text-[6rem] sm:text-[8rem] md:text-[12rem] lg:text-[15rem] xl:text-[18rem] 2xl:text-[20rem] font-serif font-black text-white whitespace-nowrap">MUMBAI मुंबई MUMBAI</h2>
       </div>
 
       <div className="max-w-[1920px] mx-auto px-3 sm:px-4 md:px-5 lg:px-6 xl:px-8 2xl:px-12 text-center relative z-10">
@@ -148,19 +148,19 @@ const SecretMasala: React.FC = () => {
             <div className="absolute inset-0 rounded-full flex items-center justify-center">
               <div className="w-64 h-64 rounded-full border-2 border-yellow-900/20" />
               <div className="absolute inset-0 flex items-center justify-center">
-                <motion.h3 
-                  className="font-serif font-black text-5xl text-yellow-900/40 uppercase select-none"
-                  animate={!isLidOpen ? { 
-                    textShadow: [
-                      "0 0 20px rgba(255,184,0,0.3)",
-                      "0 0 30px rgba(255,184,0,0.5)",
-                      "0 0 20px rgba(255,184,0,0.3)"
+                <motion.img
+                  src="/logos/Vector-3.png"
+                  alt="Swaad7"
+                  className="h-16 sm:h-20 md:h-24 lg:h-28 xl:h-32 2xl:h-36 w-auto select-none"
+                  animate={!isLidOpen ? {
+                    filter: [
+                      "drop-shadow(0 0 20px rgba(255,184,0,0.3))",
+                      "drop-shadow(0 0 30px rgba(255,184,0,0.5))",
+                      "drop-shadow(0 0 20px rgba(255,184,0,0.3))"
                     ]
                   } : {}}
                   transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
-                >
-                  Swaad
-                </motion.h3>
+                />
               </div>
               {/* Shine effect on lid */}
               <div className="absolute inset-0 rounded-full bg-gradient-to-br from-white/20 via-transparent to-transparent opacity-60" />
@@ -169,51 +169,37 @@ const SecretMasala: React.FC = () => {
         </div>
 
         <div className="space-y-4 sm:space-y-5 md:space-y-6 lg:space-y-7 xl:space-y-8">
-          
+          <h2 className="font-serif text-2xl sm:text-3xl md:text-4xl lg:text-5xl text-swaad-yellow text-center">Our Flavor Philosophy</h2>
           <p className="font-serif font-bold text-white text-lg sm:text-xl md:text-2xl leading-tight text-center max-w-2xl mx-auto">
             Taste first. Boring never. Always 7/7 swagger.
           </p>
           <div className="mt-4 mb-6 max-w-2xl mx-auto text-center">
-            <h3 className="font-mono text-swaad-yellow text-[9px] uppercase tracking-wider mb-2">Menu Mood — 7 Daily Hits That Never Miss</h3>
+            <h3 className="font-serif text-swaad-yellow text-[15px] uppercase tracking-wider mb-2">Menu Mood — 7 Daily Hits That Never Miss</h3>
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-2 sm:gap-3 text-sm text-white/90">
-              <div className="py-2">• The Bombay Bae Burger — street spice, creamy swing</div>
-              <div className="py-2">• Global Street Wrap — Tokyo drift meets Mumbai spice</div>
-              <div className="py-2">• Masala Fries ‘With Benefits’ — no plain fries allowed</div>
-              <div className="py-2">• Sunset Tacos — Mexican heat, chilled mango salsa</div>
-              <div className="py-2">• Desi Bowl Remix — quinoa & spice doing the tango</div>
-              <div className="py-2">• Midnight Sliders — tiny but lethal</div>
-              <div className="py-2">• Choco-Lava Cloud — chocolate therapy</div>
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
+                • The Bombay Bae Burger — street spice, creamy swing
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
+                • Global Street Wrap — Tokyo drift meets Mumbai spice
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
+                • Masala Fries ‘With Benefits’ — no plain fries allowed
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
+                • Sunset Tacos — Mexican heat, chilled mango salsa
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
+                • Desi Bowl Remix — quinoa & spice doing the tango
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
+                • Midnight Sliders — tiny but lethal
+              </div>
+              <div className="bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6">
+                • Choco-Lava Cloud — chocolate therapy
+              </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-4 sm:gap-5 md:gap-6 lg:gap-7 xl:gap-8 max-w-5xl mx-auto">
-            {[
-              { name: 'Chai', desc: 'cutting, adrak, masala. Kadak, Mumbai-style', icon: 'coffee' },
-              { name: 'Coffee', desc: 'simple, strong, no drama', icon: 'local_cafe' },
-              { name: 'Snacks', desc: 'dosa, sandwiches, rolls & quick bites', icon: 'lunch_dining' },
-              { name: 'Healthy Bowls', desc: 'sprouts, fresh salads, halka aur filling', icon: 'set_meal' },
-              { name: 'Soups', desc: 'garma-garam, comfort wala', icon: 'soup_kitchen' },
-              { name: 'Pani Puri', desc: '7 different flavours, har mood ke liye ek', icon: 'local_dining' },
-              { name: 'Quick Combos', desc: 'pet bhare, pocket safe', icon: 'restaurant_menu' }
-            ].map((item, index) => (
-              <motion.div
-                key={item.name}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                transition={{ delay: index * 0.1 }}
-                whileHover={{ scale: 1.05, y: -5 }}
-                className={`bg-white/10 backdrop-blur-sm border-2 border-dashed border-swaad-yellow/50 rounded-lg p-3 sm:p-4 md:p-5 lg:p-6 hover:bg-white/20 transition-all cursor-pointer touch-manipulation min-h-[100px] sm:min-h-[120px] ${index === 6 ? 'lg:col-start-2' : ''}`}
-              >
-                <div className="flex items-start gap-2.5 sm:gap-3 md:gap-3.5 lg:gap-4">
-                  <span className="material-symbols-outlined text-swaad-yellow text-2xl sm:text-2.5xl md:text-3xl lg:text-4xl flex-shrink-0 w-8 sm:w-9 md:w-10 lg:w-12 flex items-center justify-center">{item.icon}</span>
-                  <div className="flex-1 min-w-0">
-                    <h3 className="font-serif font-bold text-swaad-yellow text-base sm:text-lg md:text-xl lg:text-2xl mb-1 sm:mb-1.5 md:mb-2 leading-tight">{item.name}</h3>
-                    <p className="font-sans text-white/80 text-xs sm:text-sm md:text-base lg:text-lg leading-relaxed">{item.desc}</p>
-                  </div>
-                </div>
-              </motion.div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

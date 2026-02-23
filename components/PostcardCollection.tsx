@@ -20,13 +20,13 @@ const PostcardCollection: React.FC = () => {
           <div className="bg-[#f2efe6] p-2.5 sm:p-4 md:p-5 lg:p-6 xl:p-8 2xl:p-12 rounded-xl shadow-inner border border-black/5 relative overflow-hidden">
             {/* Scalloped Border effect */}
             <div className="absolute inset-1.5 sm:inset-2 border-2 border-dashed border-ink-blue/10 rounded-lg pointer-events-none" />
-            <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 sm:gap-4 md:gap-5 lg:gap-6 relative z-10">
+            <div className="flex gap-3 sm:gap-4 md:gap-5 lg:gap-6 relative z-10 overflow-x-auto scrollbar-thin scrollbar-thumb-swaad-yellow/40 scrollbar-track-transparent py-2" style={{ WebkitOverflowScrolling: 'touch' }}>
               <motion.div
                 whileHover={{ rotate: 0, scale: 1.05 }}
-                className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md -rotate-3 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation"
+                className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md -rotate-3 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation min-w-[120px] sm:min-w-[140px] md:min-w-[160px] lg:min-w-[180px] xl:min-w-[200px]"
             >
               <div className="flex-1 bg-gray-100 border border-black/5 overflow-hidden">
-                <img src="https://picsum.photos/400/500?grayscale" className="w-full h-full object-cover opacity-60 vintage-filter" alt="Gateway" />
+                <img src="/food/indian-food-1.jpg" className="w-full h-full object-cover opacity-60 vintage-filter" alt="Close-up Indian Food 1" />
               </div>
               <div className="h-5 sm:h-6 md:h-7 lg:h-8 flex items-center justify-center">
                 <span className="font-mono text-[6px] sm:text-[7px] md:text-[8px] uppercase font-bold text-ink-blue">Mumbai 14 Oct</span>
@@ -38,10 +38,10 @@ const PostcardCollection: React.FC = () => {
 
             <motion.div
               whileHover={{ rotate: 0, scale: 1.05 }}
-              className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md rotate-2 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation"
+              className="bg-white p-1 sm:p-1.5 md:p-2 shadow-md rotate-2 transition-transform cursor-pointer aspect-[4/5] flex flex-col touch-manipulation min-w-[120px] sm:min-w-[140px] md:min-w-[160px] lg:min-w-[180px] xl:min-w-[200px]"
             >
               <div className="flex-1 bg-gray-100 border border-black/5 overflow-hidden">
-                <img src="https://picsum.photos/400/501?grayscale" className="w-full h-full object-cover opacity-60 vintage-filter" alt="Bandra" />
+                <img src="/food/indian-food-2.jpg" className="w-full h-full object-cover opacity-60 vintage-filter" alt="Close-up Indian Food 2" />
               </div>
               <div className="h-5 sm:h-6 md:h-7 lg:h-8 flex items-center justify-center">
                 <span className="font-mono text-[6px] sm:text-[7px] md:text-[8px] uppercase font-bold text-ink-blue">Bandra 18 Oct</span>
@@ -50,14 +50,14 @@ const PostcardCollection: React.FC = () => {
 
             {/* Empty Slots */}
             {[...Array(5)].map((_, i) => (
-              <div key={i} className="aspect-[4/5] border-2 border-dashed border-gray-300 bg-black/5 flex flex-col items-center justify-center group cursor-pointer hover:bg-white/40 transition-colors touch-manipulation p-2">
+              <div key={i} className="aspect-[4/5] border-2 border-dashed border-gray-300 bg-black/5 flex flex-col items-center justify-center group cursor-pointer hover:bg-white/40 transition-colors touch-manipulation p-2 min-w-[120px] sm:min-w-[140px] md:min-w-[160px] lg:min-w-[180px] xl:min-w-[200px]">
                 <span className="material-symbols-outlined text-gray-400 group-hover:scale-110 transition-transform text-xl sm:text-2xl md:text-3xl">add_a_photo</span>
                 <span className="font-mono text-[6px] sm:text-[7px] md:text-[8px] text-gray-400 mt-1.5 sm:mt-2 uppercase tracking-widest text-center px-1 sm:px-2 md:px-4">Place Stamp Here</span>
               </div>
             ))}
 
             {/* Mystery Gift */}
-            <div className="aspect-[4/5] bg-swaad-yellow/10 border-2 sm:border-3 md:border-4 border-double border-swaad-yellow flex flex-col items-center justify-center relative overflow-hidden group cursor-pointer touch-manipulation p-2">
+            <div className="aspect-[4/5] bg-swaad-yellow/10 border-2 sm:border-3 md:border-4 border-double border-swaad-yellow flex flex-col items-center justify-center relative overflow-hidden group cursor-pointer touch-manipulation p-2 min-w-[120px] sm:min-w-[140px] md:min-w-[160px] lg:min-w-[180px] xl:min-w-[200px]">
               <div className="absolute inset-0 bg-swaad-yellow opacity-10 animate-pulse" />
               <motion.span 
                 animate={{ rotate: [0, -10, 10, 0] }}

@@ -97,15 +97,15 @@ const SwaadRath: React.FC = () => {
           The Legacy of Street Soul
         </p>
         <h2 className="font-serif font-bold text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl 2xl:text-7xl text-kora-paper mb-2 sm:mb-3 md:mb-4 lg:mb-5 leading-tight sm:leading-snug md:leading-normal">The Swaad Rath</h2>
-        <div className="max-w-3xl mx-auto mb-8 sm:mb-10 md:mb-12 lg:mb-14 xl:mb-16 space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6 text-kora-paper">
+        <div className="max-w-6xl mx-auto mb-8 sm:mb-10 md:mb-12 lg:mb-14 xl:mb-16 space-y-3 sm:space-y-4 md:space-y-5 lg:space-y-6 text-kora-paper px-6 sm:px-8 md:px-12">
           <p className="font-serif font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl leading-tight sm:leading-snug md:leading-relaxed lg:leading-relaxed">
             "Mumbai rukta nahi aur hum bhi nahi."
           </p>
-          <p className="font-sans text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center px-2">
-            At SWAAD7, we went on a mission from hungry — to blend the everyday comfort foods you grew up loving with wild, bold twists from every corner of the globe. From lip‑smacking Indian masalas to Mediterranean drips, Tokyo street bites, Tex‑Mex heat, and a little Mumbai magic on top.
+          <p className="font-calibri text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center">
+            At SWAAD7, we went on a mission from hungry to blend the everyday comfort foods you grew up loving with wild, bold twists from every corner of the globe. From lip‑smacking Indian masalas to Mediterranean drips, Tokyo street bites, Tex‑Mex heat, and a little Mumbai magic on top.
           </p>
-          <p className="font-sans text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center px-2 mt-3">
-            Every dish is crafted with the freshest ingredients, zero snooze, and full‑on attitude — fuel for your hustle and the reason you’ll say “One more round?” more than once.
+          <p className="font-calibri text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl leading-relaxed text-center mt-3">
+            Every dish is crafted with the freshest ingredients, zero snooze, and full‑on attitude fuel for your hustle and the reason you’ll say “One more round?” more than once.
           </p>
         </div>
 
@@ -113,30 +113,30 @@ const SwaadRath: React.FC = () => {
 
         {/* Where You'll Find Us Section - Minimal & Clean */}
         <div className="mt-8 sm:mt-10 md:mt-12 lg:mt-14 xl:mt-16 max-w-4xl mx-auto px-2 sm:px-3">
-          <h3 className="font-serif font-bold text-lg sm:text-xl md:text-2xl lg:text-3xl text-swaad-yellow mb-4 sm:mb-5 tracking-tight">
+          <h3 className="font-calibri font-bold text-xl sm:text-2xl md:text-3xl lg:text-4xl text-swaad-yellow mb-4 sm:mb-5 tracking-tight">
             Where You'll Find Us
           </h3>
           <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 sm:gap-4 md:gap-5">
             <div className="flex flex-col items-center">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">train</span>
-              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Local train & metro stations ke bahar</p>
+              <span className="material-symbols-outlined text-swaad-yellow text-3xl mb-1">train</span>
+              <p className="font-calibri text-kora-paper text-sm sm:text-base md:text-lg text-center leading-tight">Local train & metro stations ke bahar</p>
             </div>
             <div className="flex flex-col items-center">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">local_hospital</span>
-              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Hospitals ke aas-paas</p>
+              <span className="material-symbols-outlined text-swaad-yellow text-3xl mb-1">local_hospital</span>
+              <p className="font-calibri text-kora-paper text-sm sm:text-base md:text-lg text-center leading-tight">Hospitals ke aas-paas</p>
             </div>
             <div className="flex flex-col items-center">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">school</span>
-              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Colleges & universities ke near</p>
+              <span className="material-symbols-outlined text-swaad-yellow text-3xl mb-1">school</span>
+              <p className="font-calibri text-kora-paper text-sm sm:text-base md:text-lg text-center leading-tight">Colleges & universities ke near</p>
             </div>
             <div className="flex flex-col items-center">
-              <span className="material-symbols-outlined text-swaad-yellow text-2xl mb-1">business</span>
-              <p className="font-sans text-kora-paper text-xs sm:text-sm text-center leading-tight">Offices & busy business streets</p>
+              <span className="material-symbols-outlined text-swaad-yellow text-3xl mb-1">business</span>
+              <p className="font-calibri text-kora-paper text-sm sm:text-base md:text-lg text-center leading-tight">Offices & busy business streets</p>
             </div>
           </div>
-          <p className="font-serif text-swaad-yellow text-sm sm:text-base md:text-lg mt-6 sm:mt-7 md:mt-8 text-center leading-snug">
+          <p className="font-calibri text-swaad-yellow text-base sm:text-lg md:text-xl mt-6 sm:mt-7 md:mt-8 text-center leading-snug">
             Log chal rahe ho, ruk rahe ho, wait kar rahe ho<br className="hidden sm:block" />
-            <span className="font-bold flex items-center justify-center gap-1 mt-4">
+            <span className="font-calibri font-bold flex items-center justify-center gap-1 mt-4">
               <img 
                 src="/logos/Vector-2.png" 
                 alt="SWAAD7" 

@@ -165,7 +165,7 @@ const Hero: React.FC = () => {
             </motion.div>
 
             <div className="space-y-2 sm:space-y-2.5 md:space-y-3 lg:space-y-4">
-              <span className="inline-block font-mono text-swaad-red text-[9px] sm:text-[10px] md:text-xs lg:text-sm uppercase tracking-[0.15em] sm:tracking-[0.2em] md:tracking-[0.25em] lg:tracking-[0.3em] border-b-2 border-swaad-red/10 pb-1 sm:pb-1.5 md:pb-2">
+              <span className="inline-block font-calibri text-swaad-red text-[9px] sm:text-[10px] md:text-xs lg:text-sm uppercase tracking-[0.15em] sm:tracking-[0.2em] md:tracking-[0.25em] lg:tracking-[0.3em] border-b-2 border-swaad-red/10 pb-1 sm:pb-1.5 md:pb-2">
                 Priority Dispatch
               </span>
               
@@ -177,20 +177,21 @@ const Hero: React.FC = () => {
                 />
               </div>
               
-              <p className="font-mono text-sub-text text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg max-w-2xl mx-auto leading-relaxed px-2 sm:px-3 md:px-4">
-                Welcome to SWAAD7 — where every day is a taste-cation. We’re not just a food truck, we’re your daily flavor ritual.
+              <p className="font-calibri text-sub-text text-[11px] sm:text-base md:text-lg lg:text-xl xl:text-2xl max-w-3xl mx-auto leading-relaxed px-2 sm:px-3 md:px-4">
+                Welcome to SWAAD7 where every day is a taste-cation. We’re not just a food truck, we’re your daily flavor ritual.
               </p>
+              
 
               <p className="font-serif font-bold text-ink-blue text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl mb-1 sm:mb-1.5 md:mb-2 leading-tight sm:leading-snug md:leading-normal">
                 Food on the move. Mood on fire.
               </p>
               
-              <p className="font-mono text-sub-text text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg max-w-2xl mx-auto leading-relaxed px-2 sm:px-3 md:px-4">
+              <p className="font-calibri text-sub-text text-[11px] sm:text-xs md:text-sm lg:text-base xl:text-lg max-w-2xl mx-auto leading-relaxed px-2 sm:px-3 md:px-4">
                 7 AM – 7 PM | Mumbai ka Roz ka Food Stop
               </p>
 
-              <p className="font-sans text-text-dark text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center max-w-2xl mx-auto px-2 sm:px-3 md:px-4">
-                Swipe right on your next meal. 🌍🍔✨
+              <p className="font-serif text-text-dark text-base sm:text-lg md:text-xl lg:text-2xl leading-relaxed text-center max-w-2xl mx-auto px-2 sm:px-3 md:px-4">
+                Swipe right on your next meal.
               </p>
 
               <div className="pt-2.5 sm:pt-3 md:pt-4 lg:pt-5 flex flex-col sm:flex-row gap-2 sm:gap-2.5 md:gap-3 lg:gap-4 justify-center items-stretch sm:items-center">
